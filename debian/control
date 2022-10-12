@@ -1,0 +1,22 @@
+Source: libtext-tabulardisplay-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Jonathan Yu <jawnsy@cpan.org>,
+ Florian Schlichting <fschlich@zedat.fu-berlin.de>,
+ Nathan Handler <nhandler@debian.org>,
+ Salvatore Bonaccorso <carnil@debian.org>
+Standards-Version: 3.9.5
+Homepage: https://metacpan.org/release/Text-TabularDisplay
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libtext-tabulardisplay-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libtext-tabulardisplay-perl.git
+
+Package: libtext-tabulardisplay-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}
+Description: Perl module to display text as a formatted table
+ Text::TabularDisplay is a Perl module that simplifies displaying textual data
+ in a table. It provides column-based output identical to the display of query
+ results in the MySQL text monitor.
